@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chappal Store.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            padding: 0.5rem 0;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+            border-radius: 4px;
+        }
+
+        main {
+            padding: 1rem;
+        }
+
+        .featured-products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            text-align: center;
+            max-width: 200px;
+            margin: 1rem;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Chappal Store</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <center><h2>Featured Products</h2></center>
+        <section class="featured-products">
+            <div class="product">
+                <img src="/Users/vibhavreddy/Desktop/545/1.png" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>₹1024.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="/Users/vibhavreddy/Desktop/545/2.png" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>₹2566.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="/Users/vibhavreddy/Desktop/545/3.png" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>₹1566.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="/Users/vibhavreddy/Desktop/545/4.png" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>₹2999.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Chappal Store</p>
+    </footer>
+</body>
+</html>
